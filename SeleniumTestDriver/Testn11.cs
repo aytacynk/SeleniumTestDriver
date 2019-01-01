@@ -23,8 +23,8 @@ namespace SeleniumTestDriver
 
             driver.Navigate().GoToUrl("https://www.n11.com/");
             driver.FindElement(By.ClassName("btnSignIn")).Click();
-            driver.FindElement(By.Id("email")).SendKeys("aytacyanik@yandex.com");
-            driver.FindElement(By.Id("password")).SendKeys("aytach3206709");
+            driver.FindElement(By.Id("email")).SendKeys("blokenstein@yandex.com");
+            driver.FindElement(By.Id("password")).SendKeys("123456Z");
             driver.FindElement(By.Id("loginButton")).Click();
 
             driver.FindElement(By.Id("searchData")).SendKeys("samsung");
